@@ -1,3 +1,4 @@
+require('dotenv').config();
 
 export default {
   mode: 'universal',
@@ -54,5 +55,8 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+  env: {
+    ENTRYPOINT: process.env.ENTRYPOINT,
   }
 }

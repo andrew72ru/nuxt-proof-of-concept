@@ -45,7 +45,6 @@
   import ShowName from '../components/speaker/ShowName'
 
   export default {
-    name: 'EventList',
     components: { ShowName },
     computed: mapGetters({
       error: 'modules/event/list/error',

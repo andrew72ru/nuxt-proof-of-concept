@@ -1,11 +1,5 @@
 <template>
   <div class="container">
-    <nav>
-      <ul class="nav nav-justified">
-        <li class="active"><router-link :to="{ name: 'EventList' }" class="button--grey">Events</router-link></li>
-      </ul>
-    </nav>
-
     <nuxt />
   </div>
 </template>
